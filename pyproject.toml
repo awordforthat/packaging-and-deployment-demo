@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "package_demo_echarles"
+version = "0.0.1"
+authors = [
+  { name="Some Developer", email="my_fake_email@gmail.com" },
+]
+description = "A test project for creating my first PyPI "
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/awordforthat/packaging-and-deployment-demo"
+"Bug Tracker" = "https://github.com/awordforthat/packaging-and-deployment-demo/issues"
